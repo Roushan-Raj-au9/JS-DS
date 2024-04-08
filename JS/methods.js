@@ -32,3 +32,15 @@ const person = {
 
 const greetPerson = greet.bind(person, 'Good Morning')
 greetPerson()
+
+
+//clouser
+function outer(){
+    let name = "Roushan"
+    function inner(){
+        console.log("name >>> ", name)
+    }
+    return inner()
+}
+
+outer()
