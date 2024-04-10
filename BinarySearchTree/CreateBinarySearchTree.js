@@ -44,6 +44,13 @@ const search = (root, target) => {
     return search(root.left, target)
 }
 
+const printValues = (node) => {
+    if (node !== null) {
+        console.log("node.value >> ", node.value);
+        printValues(node.left);
+        printValues(node.right);
+    }
+}
 
 let root = new Node(30);
 
@@ -51,7 +58,10 @@ insert(root, new Node(15))
 insert(root, new Node(60))
 insert(root, new Node(80))
 
-console.log(search(root, 15));
+printValues(root)
+
+let searchResult = search(root, 15);
+console.log("searchResult >>> ", searchResult)
 
 
 
