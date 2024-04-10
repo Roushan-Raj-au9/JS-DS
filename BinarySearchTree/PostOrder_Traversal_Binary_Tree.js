@@ -61,21 +61,28 @@ const postOrderTraversal = (root) => {
 // expected output - 2 6 5 4 9 8 12 11 10 13 7 3 15 14 1 
 
 let root = new Node(1);
-insert(root, new Node(14));
-insert(root, new Node(3));
-insert(root, new Node(7));
-insert(root, new Node(4));
-insert(root, new Node(5));
-insert(root, new Node(15));
-insert(root, new Node(6));
-insert(root, new Node(13));
-insert(root, new Node(10));
-insert(root, new Node(11));
 insert(root, new Node(2));
-insert(root, new Node(12));
-insert(root, new Node(8));
-insert(root, new Node(9));
+insert(root, new Node(5));
+insert(root, new Node(3));
+insert(root, new Node(6));
+insert(root, new Node(4));
 
-// printValues(root)
+// let root = new Node(1);
+// insert(root, new Node(14));
+// insert(root, new Node(3));
+// insert(root, new Node(7));
+// insert(root, new Node(4));
+// insert(root, new Node(5));
+// insert(root, new Node(15));
+// insert(root, new Node(6));
+// insert(root, new Node(13));
+// insert(root, new Node(10));
+// insert(root, new Node(11));
+// insert(root, new Node(2));
+// insert(root, new Node(12));
+// insert(root, new Node(8));
+// insert(root, new Node(9));
+
+printValues(root)
 
 postOrderTraversal(root);
