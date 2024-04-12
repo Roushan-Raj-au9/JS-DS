@@ -1,0 +1,12 @@
+1. JS is primarilly 'Pass by Value' but for Objects, Arrays, Functions it is 'Pass by Reference'.
+
+2. JS is Interpreted language not Compiled language which means JS does not need extra compiler it runs line by line. (In compiled language if all the code get's successfully compiled first then it runs)
+   Example of Interpreted - JS, python & Compiled - Java, C, C++, Golang, Rust.
+
+3.  What are compilers - Compilers convert high level developer friendly code into 0s and 1s
+
+4. Interpreted languages go line by line while executing, can partially run until an error comes.
+
+5. in Js to loop for "Array" we say 'for(let i of arr){}'  & for "Objects" we say 'for(let i in obj)'
+
+6.
