@@ -9,4 +9,28 @@
 
 5. in Js to loop for "Array" we say 'for(let i of arr){}'  & for "Objects" we say 'for(let i in obj)'
 
-6.
+6. Es6 new features
+   i.   let and const keyword
+   ii.  Arrow Functions
+   iii. Default Parameters // function myFunction(x, y = 10) {}; myFunction(5); // 15
+   iv.  The Spread (...) Operator // const q1 = ["Jan", "Feb", "Mar"]; const year = [...q1];
+
+   v. Maps // let map = new Map(); --> map.set('orange', 300) // console.log("map >> ", map.get('oranges')) // 300
+      or let map = new Map([ ["apples", 500], ["oranges", 200] ]);
+   
+   vi.  Sets // let set = new Set(); --> set.add('a'); set.add('b); --> set.values() // {'a', 'b'}
+        or let set = new Set(['a', 'b', 'c']);
+   
+   vii.  Class
+   viii. Promise
+   ix.   Rest Parameter // function sum(...args) {}; let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
+   x.    Template Literals // `${someValue}`
+
+   xi.   Destructuring Assignment 
+   ----> let fruits = ["Apple", "Banana"];
+         let [a, b] = fruits; // Array destructuring assignment
+         console.log(a, b); // Apple Banana
+
+   ----> let person = {name: "Peter", age: 28};
+         let {name, age} = person; // Object destructuring assignment
+         console.log(name, age);  // Peter 28
