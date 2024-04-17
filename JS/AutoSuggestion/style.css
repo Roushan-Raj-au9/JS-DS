@@ -1,0 +1,19 @@
+#app{
+    width: 400px;
+    /* position: relative; */
+}
+
+input{
+    width: 100%;
+    height: 40px;
+}
+
+#suggestion_container{
+    display: none;
+    min-height: 100px;
+    overflow-y: scroll;
+    border: 1px solid grey;
+    margin-top: 10px;
+    padding: 5px;
+    /* position: relative; */
+}
