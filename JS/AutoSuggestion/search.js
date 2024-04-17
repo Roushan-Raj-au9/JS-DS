@@ -17,8 +17,8 @@ const getSuggestions = (keyword) => {
 const inputBox = document.getElementById('search');
 const suggestionBox = document.getElementById('suggestion_container');
 
+// let timer;
 // const debounce = (e) => {
-//     let timer;
 //     clearTimeout(timer);
 //     timer = setTimeout(() => {
 //         handleSearch(e.target.value);
@@ -26,7 +26,6 @@ const suggestionBox = document.getElementById('suggestion_container');
 // }
 
 const handleSearch = async(keyword) => {
-    // console.log("keyword in handleSearch >> ", keyword)
     suggestionBox.innerHTML = "";
 
     if(!keyword){
@@ -34,6 +33,7 @@ const handleSearch = async(keyword) => {
     }
 
     const output = await getSuggestions(keyword);
+    // console.log("output in handleSearch >> ", output)
 
     if(output && output.length > 0){
         const list = document.createElement('ul');
