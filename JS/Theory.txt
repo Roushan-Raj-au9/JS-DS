@@ -34,3 +34,6 @@
    ----> let person = {name: "Peter", age: 28};
          let {name, age} = person; // Object destructuring assignment
          console.log(name, age);  // Peter 28
+
+
+7. TDZ ---> The region before the declaration of a variable, which is having the block scope made by let is known as TDZ (Temporal Dead Zone).
